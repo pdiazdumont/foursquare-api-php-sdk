@@ -1,0 +1,22 @@
+{
+    "name": "pdiazdumont/foursquare-api-php-sdk",
+    "description": "Foursquare API SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Diaz",
+            "email": "hi@pdiazdumont.net"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PDiazDumont\\Foursquare\\": "src/"
+        }
+    }
+}
