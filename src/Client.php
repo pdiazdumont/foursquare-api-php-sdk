@@ -1,5 +1,4 @@
 <?php
-
 namespace PDiazDumont\Foursquare;
 
 use PDiazDumont\Foursquare\Exceptions;
