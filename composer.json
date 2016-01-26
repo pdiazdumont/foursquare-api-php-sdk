@@ -1,6 +1,6 @@
 {
-    "name": "pdiazdumont/foursquare-api-php-sdk",
-    "description": "Foursquare API SDK",
+    "name": "pdiazdumont/foursquare-api-php-wrapper",
+    "description": "Foursquare API PHP Wrapper",
     "license": "MIT",
     "authors": [
         {

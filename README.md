@@ -2,7 +2,7 @@
 
 ## Introduction
 This project offers a more semantic way of accessing the Foursquare API using PHP. Instead of just wrapping the http requests it allows you to access the information using the following syntax:
-```
+```php
 $foursquare->venues('VENUE_ID')->get();
 $foursquare->venues()->search($params);
 $foursquare->users('USER_ID')->checkins();
@@ -16,7 +16,7 @@ $foursquare->users('USER_ID')->checkins();
 ## Installation
 This library can be installed using [Composer](http://getcomposer.org/) by running the following command:
 ```
-composer require pdiazdumont/foursquare-api-php-sdk
+composer require pdiazdumont/foursquare-api-php-wrapper
 ```
 
 ## Usage
