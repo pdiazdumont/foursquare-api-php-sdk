@@ -95,8 +95,11 @@ class Client
      *
      * @return string
      */
-    public function __construct($clientId, $clientSecret, $clientDate = null)
+    public function __construct($clientId = null, $clientSecret = null, $clientDate = null)
     {
+        if (is_null($clientId) || is_null($clientSecret)) {
+            throw new Exceptions\MissingArgumentException("The Foursquare client requires an application ID and an application secret.", 401);
+        }
         $this->endpoint = static::API_URL.static::API_VERSION;
         $this->clientId = $clientId;
         $this->clientSecret = $clientSecret;
