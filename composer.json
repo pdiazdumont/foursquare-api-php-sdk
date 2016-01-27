@@ -11,9 +11,13 @@
     "require": {
         "guzzlehttp/guzzle": "^6.1"
     },
+    "required-dev": {
+        "phpunit/phpunit": "5.1.*"
+    },
     "autoload": {
         "psr-4": {
-            "PDiazDumont\\Foursquare\\": "src/"
+            "PDiazDumont\\Foursquare\\": "src/",
+            "PDiazDumont\\Foursquare\\Tests\\": "tests/"
         }
     }
 }
