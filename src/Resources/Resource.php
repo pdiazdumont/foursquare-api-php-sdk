@@ -82,7 +82,7 @@ class Resource
     {
         $method = $this->findMethod($name);
         if ($method) {
-            return $this->callAPI($method, $args[0]);
+            return $this->callAPI($method, (count($args) != 0) ? $args[0] : []);
         } else {
             throw new Exceptions\InvalidMethodException(sprintf("The method '%s' doesn't exist.", $name));
         }
