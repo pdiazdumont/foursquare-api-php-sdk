@@ -1,11 +1,15 @@
 {
     "name": "pdiazdumont/foursquare-api-php-wrapper",
     "description": "Foursquare API PHP Wrapper",
+    "keywords": ["api", "wrapper", "foursquare"],
+    "homepage": "https://github.com/pdiazdumont/foursquare-api-php-wrapper",
     "license": "MIT",
     "authors": [
         {
             "name": "Paul Diaz",
-            "email": "hi@pdiazdumont.net"
+            "email": "hi@pdiazdumont.net",
+            "homepage": "http://pdiazdumont.net",
+            "role": "Developer"
         }
     ],
     "require": {
