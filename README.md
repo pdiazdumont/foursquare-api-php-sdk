@@ -156,3 +156,6 @@ if ($foursquare->validateUserPush()) {
     // Do something with the push data.
 }
 ```
+
+## Tests
+To run the tests first you need to set an application id and an application secret in the file `tests/FoursquareAPICredentials.php` then run the `phpunit` command in the root folder of the project.
